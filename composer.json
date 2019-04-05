@@ -1,0 +1,25 @@
+{
+    "name": "omaraligit/laravel-settings",
+    "description": "Laravel packages to manage app settings using the database",
+    "type": "laravel package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "omar ali",
+            "email": "omarali0601520286@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "OmarAliGit\\Settings\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OmarAliGit\\Settings\\LaravelSettingsServiceProvider"
+            ]
+        }
+    }
+}
