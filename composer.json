@@ -9,7 +9,9 @@
             "email": "omarali0601520286@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^7.1"
+    },
     "autoload": {
         "psr-4": {
             "OmarAliGit\\Settings\\": "src/"
