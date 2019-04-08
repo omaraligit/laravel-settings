@@ -64,7 +64,7 @@ class Settings extends Facade
             }else{
                 $setting = self::getSettingByKey($k);
                 if($setting){
-                    self::update($k,$value);
+                    self::update($k,$v);
                 }else{
                     $setting = new MSettings();
                     $setting->key = $k;
