@@ -62,7 +62,7 @@
      * foo=bar
      */
     ```
-1. deleting a key from the database secound option is false by default (make it true to delete sub keys) e.g. if you have foo.bar and foo.tar and the key you want to delete is foo the the 2 keys will be deleted other ways if falsee you need to enter the key.subkey.othersubkey if you want a specifice key deletion 
+1. deleting a key from the database secound option is false by default (make it true to delete sub keys) e.g. if you have foo.bar and foo.tar and the key you want to delete is foo the the 2 keys will be deleted other ways if falsee you need to enter the key.subkey.othersubkey if you want a specific key deletion 
     ```php
     \OmarAliGit\Settings\Facades\Settings::delete($key, false);
     ```
@@ -85,7 +85,7 @@
      *          ]
      *      ]
      *  ]
-     * or will return a string if the key is specifice
+     * or will return a string if the key is specific
      */
     ```
     1.updating a key or keys if array is given (it'sthe same as saving with a third parameter that will create a key if not found by default it's false so a NotFoundException will be thrown if key is not created befour)
