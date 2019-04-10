@@ -72,20 +72,20 @@
     /**
      * will return a array like this if key has sub keys e.g. payment from erlier
      *   [
-            "payment"=>[
-                "paypal"=>[
-                    "real"=>[
-                        "client_id"=>"paypal_real_client_id",
-                        "secret_id"=>"paypal_real_secret_id",
-                    ],
-                    "sandbox"=>[
-                        "client_id"=>"paypal_sandbox_client_id",
-                        "secret_id"=>"paypal_sandbox_secret_id",
-                    ]
-                ]
-            ]
-        ]
-    * or will return a string if the key is specifice
+     *      "payment"=>[
+     *          "paypal"=>[
+     *              "real"=>[
+     *                  "client_id"=>"paypal_real_client_id",
+     *                  "secret_id"=>"paypal_real_secret_id",
+     *              ],
+     *              "sandbox"=>[
+     *                  "client_id"=>"paypal_sandbox_client_id",
+     *                  "secret_id"=>"paypal_sandbox_secret_id",
+     *              ]
+     *          ]
+     *      ]
+     *  ]
+     * or will return a string if the key is specifice
      */
     ```
     1.updating a key or keys if array is given (it'sthe same as saving with a third parameter that will create a key if not found by default it's false so a NotFoundException will be thrown if key is not created befour)
